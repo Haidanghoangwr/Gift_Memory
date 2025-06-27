@@ -471,3 +471,18 @@
     color: #fff;
     margin-bottom: 20px;
   }
+
+  .popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Căn giữa các phần tử */
+  text-align: center;
+}
+
+.popup-image {
+  width: 200px;
+  /* height: 100px; */
+  border-radius: 20%; /* Bo tròn */
+  object-fit: cover;  /* Giữ tỷ lệ hình ảnh */
+  margin-bottom: 16px; /* Khoảng cách phía dưới ảnh */
+}
